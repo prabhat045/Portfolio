@@ -38,7 +38,7 @@ export default function AboutMe() {
             rel="noreferrer"
             className="hover:text-blue-500 transition-colors"
           >
-            <img src="/github.svg" alt="GitHub" className="w-8 h-8" />
+            <img src="/Portfolio/github.svg" alt="GitHub" className="w-8 h-8" />
           </a>
           <a
             href="https://www.linkedin.com/in/prabhatuprety/"
@@ -46,7 +46,7 @@ export default function AboutMe() {
             rel="noreferrer"
             className="hover:text-blue-500 transition-colors"
           >
-            <img src="/linkedin.svg" alt="LinkedIn" className="w-8 h-8" />
+            <img src="/Portfolio/linkedin.svg" alt="LinkedIn" className="w-8 h-8" />
           </a>
         </div>
 

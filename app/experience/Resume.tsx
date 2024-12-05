@@ -8,7 +8,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/PrabhatUprety_CV.pdf";
+    link.href = "/Portfolio/PrabhatUprety_CV.pdf";
     link.download = "PrabhatUprety_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -118,7 +118,7 @@ export default function Resume() {
             </button>
             {/* Embedded PDF */}
             <iframe
-              src="/PrabhatUprety_CV.pdf"
+              src="/Portfolio/PrabhatUprety_CV.pdf"
               className="w-full min-h-[500px] max-h-[90vh]"
               title="Resume Viewer"
             ></iframe>
