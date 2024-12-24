@@ -1,0 +1,100 @@
+.chatCircle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chatWindow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chatHeader {
+    padding: 10px;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .chatBody {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .chatFooter {
+    display: flex;
+    padding: 10px;
+    background-color: #0056b3;
+  }
+  
+  .chatInput {
+    background-color: #fff; /* Set a contrasting background color */
+    color: #000; /* Set the font color to black */
+    font-size: 16px; /* Adjust font size */
+    border: 1px solid #ccc; /* Optional: add a border */
+    border-radius: 4px; /* Optional: add rounded corners */
+    padding: 10px; /* Add some padding */
+    width: 100%; /* Make it responsive */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  
+  .sendButton {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .userMessage {
+    text-align: right;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .modelMessage {
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #ffeb3b;
+  }
+  
