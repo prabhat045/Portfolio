@@ -18,8 +18,8 @@ export default function Home() {
       </section>
       <section id="projects" className="min-h-screen">
         <Projects />
-{/*       </section>
-       <Chatbot/> */}
+   </section>
+{/*        <Chatbot/>  */}
     </div>
   );
 }
